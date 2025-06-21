@@ -30,6 +30,13 @@ addBtn.addEventListener('click', () => {
     }
 });
 
+taskInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' && !event.repeat) {
+        event.preventDefault();
+        addBtn.click();
+    }
+});
+
 function deleteTask(index) {
     tasks.splice(index, 1);
 
