@@ -10,7 +10,7 @@ renderTasks();
 addBtn.addEventListener('click', () => {
     const task = taskInput.value.trim();
 
-    if (task !== "") {
+    if (task !== '') {
         const newTask = {
             text: task,
             completed: false
@@ -22,8 +22,11 @@ addBtn.addEventListener('click', () => {
 
         taskInput.value = '';
     }
+    else if (task.length > 50) {
+        alert('Task cannot be longer than 50 characters.');
+    }
     else {
-        alert("Please add a task.");
+        alert('Please add a task.');
     }
 });
 
