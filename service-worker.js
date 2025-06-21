@@ -1,11 +1,15 @@
 const CACHE_NAME = "todo-app-cache-v1";
 const ASSETS = [
-    "/",
-    "/index.html",
-    "/src/script.js",
-    "/site.webmanifest",
-    "/assets/favicons/web-app-manifest-192x192.png",
-    "/assets/favicons/web-app-manifest-512x512.png",
+    "./",
+    "./index.html",
+    "./src/script.js",
+    "./site.webmanifest",
+    "./assets/favicons/web-app-manifest-192x192.png",
+    "./assets/favicons/web-app-manifest-512x512.png",
+    "./assets/logo.png",
+    "./assets/empty-box.png",
+    "./assets/delete-icon.svg",
+    "./assets/add-icon.svg",
     "https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css",
     "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js",
     "https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
